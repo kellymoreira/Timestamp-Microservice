@@ -5,8 +5,8 @@
 let express = require("express");
 let app = express();
 
-// enable CORS (https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
-// so that your API is remotely testable by FCC
+// We need to enable CORS (https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
+// then the API is remotely testable by FCC
 let cors = require("cors");
 app.use(cors({ optionsSuccessStatus: 200 }));
 
