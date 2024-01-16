@@ -19,9 +19,9 @@
 
 ## 📜 About
 
->*This project is designed to provide a **RESTful API** that responds to requests made to specific endpoints related to date manipulation. <br>
->It is the first project from the freeCodeCamp project's. _[Tap here to see the instructions](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice
-)_ <br> 
+>*Designed to provide a **RESTful API** that responds to requests made to specific endpoints related to date manipulation. <br>
+>It is the first project from the freeCodeCamp project's. <br>
+_[Tap here to see the instructions](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice)_ <br> 
 >It supports three main functionalities:* <br>
 
 ### Date Conversion Endpoint:
