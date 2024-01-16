@@ -23,23 +23,21 @@
 >It is the first project from the freeCodeCamp project's. _[Tap here to see the instructions](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice
 )_ <br> 
 >It supports three main functionalities:* <br>
->
->
->### Date Conversion Endpoint:
->
-> - Requests to `/api/:date?` return a JSON object. <br>
-> - Valid date input returns `unix` timestamp (in milliseconds) and `utc` representation. <br>
-> - Invalid date input results in `{ error: "Invalid Date" }` response. <br>
->
->### Date Parsing:
->
-> - Capable of handling dates parsed by `new Date(date_string)`. <br>
->
->### Default Behavior:
->
-> - An empty date parameter defaults to the current time.
-> - Returns JSON object with `unix` timestamp and `utc` representation of the current time.
->
+
+### Date Conversion Endpoint:
+ - Requests to `/api/:date?` return a JSON object. <br>
+ - Valid date input returns `unix` timestamp (in milliseconds) and `utc` representation. <br>
+ - Invalid date input results in `{ error: "Invalid Date" }` response. <br>
+
+### Date Parsing:
+
+ - Capable of handling dates parsed by `new Date(date_string)`. <br>
+
+### Default Behavior:
+
+ - An empty date parameter defaults to the current time.
+ - Returns JSON object with `unix` timestamp and `utc` representation of the current time.
+
 
 ## ⚙️ Tech Stack
 
