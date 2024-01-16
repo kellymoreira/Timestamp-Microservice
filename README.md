@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-    Timestamp Microservice ⌚
+    Timestamp Microservice 🗓️
 </h1>
 
 <p align="center">
