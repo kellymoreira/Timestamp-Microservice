@@ -52,8 +52,7 @@ GET /api/appointment?date=1706544000000
 ```
 From the **URL** `GET /api/appointment?date=1706544000000`, the parameter `1706544000000` will be captured as `req.params.date` in the code. <br> 
 The code then checks if it's a valid `unix timestamp`, and if so, it converts it to a standard format with `unix timestamp` and `utc string`. <br>
-If it's not a valid `unix timestamp`, it attempts to parse it as a date string and provides the corresponding `unix timestamp` and `utc string` if successful, or an error message if the parsing fails.
-<br
+If it's not a valid `unix timestamp`, it attempts to parse it as a date string and provides the corresponding `unix timestamp` and `utc string` if successful, or an error message if the parsing fails. <br>
 So, when you make a request to `GET /api/appointment?date=1706544000000`, it should return a JSON object with the `unix timestamp` and `utc string`.
 
 ```
