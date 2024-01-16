@@ -18,8 +18,8 @@
 </p>
 
 # 📜 About
->*Designed to provide a **RESTful API** that responds to requests made to specific endpoints related to date manipulation. <br>
->It's the first project from the [freeCodeCamp](https://www.freecodecamp.org/learn), just for study purposes. <br>
+>*Designed to provide a RESTful API that responds to requests made at specific endpoints related to date manipulation for study purposes. <br>
+>It's the first project from the [freeCodeCamp](https://www.freecodecamp.org/learn). <br>
 [Tap here to see the instructions](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice) <br> 
 >It supports three main functionalities:* <br>
 
