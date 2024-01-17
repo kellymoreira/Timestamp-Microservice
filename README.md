@@ -29,12 +29,12 @@
 
 <h2 id="About">📜 About</h2>
 
->*Designed to provide a RESTful API that responds to requests made at specific endpoints related to date manipulation for study purposes. <br>
+>*Designed to provide a **RESTful API** that responds to requests made at specific endpoints related to date manipulation for study purposes. <br>
 >It's the first project from freeCodeCamp. [Tap here to see the instructions](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice) <br> 
 >It supports three main functionalities:* <br>
 
 ### Date Conversion Endpoint:
- - Requests to `/api/:date?` return a JSON object. <br>
+ - Requests to `/api/:date?` return a **JSON object**. <br>
  - Valid date input returns `unix timestamp` (in milliseconds) and `utc` representation. <br>
  - Invalid date input results in `{ error: "Invalid Date" }` response. <br>
 
@@ -43,7 +43,7 @@
 
 ### Default Behavior:
  - An empty date parameter defaults to the current time.
- - Returns JSON object with `unix timestamp` and `utc` representation of the current time.
+ - Returns **JSON object** with `unix timestamp` and `utc` representation of the current time.
 
 <br>
 
@@ -57,13 +57,13 @@
 <h2 id="Usage">🛎️ Example Usage (Hypothetical Situation)</h2>
 
 ### Booking System for Appointments or Revervations:
-Consider a scenario where users choose a date and time for an appointment. The API can assist in converting and storing these timestamps. 
-When a user selects a date and time for an appointment, the API facilitates the conversion and storage of these timestamps in a standardized format. This ensures smooth communication between different components of the system.
+Consider a scenario where users choose a date and time for an appointment. The **API** can assist in converting and storing these timestamps. 
+When a user selects a date and time for an appointment, the **API** facilitates the conversion and storage of these timestamps in a standardized format. This ensures smooth communication between different components of the system.
 
 
 ### Request:
 
-Make a GET request to `/api/appointment` with the date parameter:
+Make a **GET** request to `/api/appointment` with the date parameter:
 
 ```bash
 GET /api/appointment?date=1706544000000
@@ -71,7 +71,7 @@ GET /api/appointment?date=1706544000000
 
 ### Response:
 
-The API returns a JSON object with the Unix timestamp and UTC string:
+The **API** returns a **JSON object** with the **Unix timestamp** and **UTC string**:
 
 ```json
 {
@@ -82,7 +82,9 @@ The API returns a JSON object with the Unix timestamp and UTC string:
 
 ### How It Works:
 
-The code captures the `date` parameter from the URL (`req.params.date`) and checks if it's a valid Unix timestamp. If it is, the code converts it to a standard format with Unix timestamp and UTC string. If it's not a valid Unix timestamp, the code attempts to parse it as a date string and provides the corresponding Unix timestamp and UTC string if successful, or an error message if the parsing fails.
+- The code captures the `date` parameter from the URL (`req.params.date`) and checks if it's a valid **Unix timestamp**.
+- If it is, the code converts it to a standard format with **Unix timestamp** and UTC string.
+- If it's not a valid **Unix timestamp**, the code attempts to parse it as a date string and provides the corresponding **Unix timestamp** and UTC string if successful, or an error message if the parsing fails.
 
 <br>
 
