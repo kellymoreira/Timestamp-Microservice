@@ -17,7 +17,14 @@
         <img alt="Project Status" src="https://img.shields.io/badge/status-completed-6272a4">
 </p>
 
-# 📜 About
+
+<p align="center">
+    <a href="#About">About</a>
+   | <a href="#Tech Stack">Tech Stack</a>
+</p>
+
+<h2 id="About">📜 About</h2>
+
 >*Designed to provide a RESTful API that responds to requests made at specific endpoints related to date manipulation for study purposes. <br>
 >It's the first project from freeCodeCamp. [Tap here to see the instructions](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice) <br> 
 >It supports three main functionalities:* <br>
@@ -36,7 +43,8 @@
 
 <br>
 
-# ⚙️ Tech Stack
+<h2 id="Tech Stack">⚙️ Tech Stack</h2>
+
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 
 <br>
