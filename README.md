@@ -43,7 +43,7 @@
 
 # 🛎️ Example Usage (Hypothetical Situation)
 ### Booking System for Appointments or Revervations Scenario: 
-When users select a **date** and **time** for an appointment, the API can assist in converting and storing these **timestamps** in a standard way. <br>
+When users client select a **date** and **time** for an appointment, the API can assist in converting and storing these **timestamps** in a standard way. <br>
 This ensures seamless communication between different parts of the system.
 ```
 GET /api/appointment?date=1706544000000
