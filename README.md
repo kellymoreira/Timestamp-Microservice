@@ -21,6 +21,8 @@
 <p align="center">
     <a href="#About">About</a>
    | <a href="#Tech Stack">Tech Stack</a>
+   | <a href="#Usage">Usage</a>
+   | <a href="#Resources">Resources</a>
 </p>
 
 <h2 id="About">📜 About</h2>
@@ -49,7 +51,8 @@
 
 <br>
 
-# 🛎️ Example Usage (Hypothetical Situation)
+<h2 id="Usage">🛎️ Example Usage (Hypothetical Situation)</h2>
+
 ### Booking System for Appointments or Revervations Scenario: 
 When users client select a **date** and **time** for an appointment, the API can assist in converting and storing these **timestamps** in a standard way. <br>
 This ensures seamless communication between different parts of the system.
@@ -68,8 +71,7 @@ So, when you make a request to `GET /api/appointment?date=1706544000000`, it sho
   "utc": "Thu, 29 Jun 2023 00:00:00 GMT"
 }
 ```
-
-# 💡 Resources
+<h2 id="Resources">💡 Resources</h2>
 
 [Back End Development and API's](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
 
