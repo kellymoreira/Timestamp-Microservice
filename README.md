@@ -25,6 +25,8 @@
    | <a href="#Resources">Resources</a>
 </p>
 
+<br>
+
 <h2 id="About">📜 About</h2>
 
 >*Designed to provide a RESTful API that responds to requests made at specific endpoints related to date manipulation for study purposes. <br>
@@ -71,6 +73,9 @@ So, when you make a request to `GET /api/appointment?date=1706544000000`, it sho
   "utc": "Thu, 29 Jun 2023 00:00:00 GMT"
 }
 ```
+
+<br>
+
 <h2 id="Resources">💡 Resources</h2>
 
 [Back End Development and API's](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
