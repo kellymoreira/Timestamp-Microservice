@@ -25,7 +25,6 @@
    | <a href="#Resources">Resources</a>
 </p>
 
-<br>
 
 <h2 id="About">📜 About</h2>
 
@@ -45,13 +44,10 @@
  - An empty date parameter defaults to the current time.
  - Returns **JSON object** with `unix timestamp` and `utc` representation of the current time.
 
-<br>
 
 <h2 id="Tech Stack">⚙️ Tech Stack</h2>
 
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-
-<br>
 
 
 <h2 id="Usage">🛎️ Example Usage (Hypothetical Situation)</h2>
@@ -86,10 +82,13 @@ The **API** returns a **JSON object** with the **Unix timestamp** and **UTC stri
 - If it is, the code converts it to a standard format with **Unix timestamp** and **UTC string**.
 - If it's not a valid **Unix timestamp**, the code attempts to parse it as a date string and provides the corresponding **Unix timestamp** and **UTC string** if successful, or an error message if the parsing fails.
 
-<br>
 
-<h2 id="Resources">💡 Resources</h2>
+<details>
+  <summary><h2 id="Resources">💡 Resources</h2></summary>
 
-[Back End Development and API's](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
+- [Back End Development and API's](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
+
+</details>
+
 
 
