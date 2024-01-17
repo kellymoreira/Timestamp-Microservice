@@ -61,9 +61,6 @@ So, when you make a request to `GET /api/appointment?date=1706544000000`, it sho
 }
 ```
 
-# Lessons Learned
--
-
 # 💡 Resources
 
 [Back End Development and API's](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
