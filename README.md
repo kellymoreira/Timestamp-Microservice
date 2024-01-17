@@ -1,5 +1,5 @@
 <p align="center">
-<img src="clock.png" alt="Clock" width="20%"/>
+<img src="./img/clock.png" alt="Clock" width="20%"/>
 </p>
 
 <h1 align="center">
