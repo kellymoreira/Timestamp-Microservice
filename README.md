@@ -83,8 +83,8 @@ The **API** returns a **JSON object** with the **Unix timestamp** and **UTC stri
 ### How It Works:
 
 - The code captures the `date` parameter from the URL (`req.params.date`) and checks if it's a valid **Unix timestamp**.
-- If it is, the code converts it to a standard format with **Unix timestamp** and UTC string.
-- If it's not a valid **Unix timestamp**, the code attempts to parse it as a date string and provides the corresponding **Unix timestamp** and UTC string if successful, or an error message if the parsing fails.
+- If it is, the code converts it to a standard format with **Unix timestamp** and **UTC string**.
+- If it's not a valid **Unix timestamp**, the code attempts to parse it as a date string and provides the corresponding **Unix timestamp** and **UTC string** if successful, or an error message if the parsing fails.
 
 <br>
 
