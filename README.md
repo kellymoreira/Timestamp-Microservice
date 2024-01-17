@@ -53,26 +53,44 @@
 
 <br>
 
+
 <h2 id="Usage">🛎️ Example Usage (Hypothetical Situation)</h2>
 
-### Booking System for Appointments or Revervations Scenario: 
-When users client select a **date** and **time** for an appointment, the API can assist in converting and storing these **timestamps** in a standard way. <br>
-This ensures seamless communication between different parts of the system.
-```
-GET /api/appointment?date=1706544000000
-// Returns: { unix: 1706544000000, utc: "Thu, 29 Jun 2023 00:00:00 GMT" }
-```
-From the **URL** `GET /api/appointment?date=1706544000000`, the parameter `1706544000000` will be captured as `req.params.date` in the code. <br> 
-The code then checks if it's a valid `unix timestamp`, and if so, it converts it to a standard format with `unix timestamp` and `utc string`. <br>
-If it's not a valid `unix timestamp`, it attempts to parse it as a date string and provides the corresponding `unix timestamp` and `utc string` if successful, or an error message if the parsing fails. <br>
-So, when you make a request to `GET /api/appointment?date=1706544000000`, it should return a JSON object with the `unix timestamp` and `utc string`.
+### Booking System for Appointments or Revervations Scenario:
+The Booking System for Appointments is designed to convert and store timestamps in a standardized manner, facilitating smooth communication across different parts of the system.
 
+
+When users client select a date and time for an appointment, the API can assist in converting and storing these timestamps in a standard way.
+This ensures seamless communication between different parts of the system.
+
+Consider a scenario where users select a date and time for an appointment. The API can assist in converting and storing these timestamps.
+
+### Request
+
+Make a GET request to `/api/appointment` with the date parameter:
+
+```bash
+GET /api/appointment?date=1706544000000
 ```
+
+### Response
+
+The API returns a JSON object with the Unix timestamp and UTC string:
+
+```json
 {
-  "unix": 1706544000000,
-  "utc": "Thu, 29 Jun 2023 00:00:00 GMT"
+ "unix": 1706544000000,
+ "utc": "Thu, 29 Jun 2023 00:00:00 GMT"
 }
 ```
+
+### How It Works
+
+The code captures the `date` parameter from the URL (`req.params.date`) and checks if it's a valid Unix timestamp. If it is, the code converts it to a standard format with Unix timestamp and UTC string. If it's not a valid Unix timestamp, the code attempts to parse it as a date string and provides the corresponding Unix timestamp and UTC string if successful, or an error message if the parsing fails.
+
+### License
+
+This project is licensed under the AGPLv3 license. For more details, check the [LICENSE](./LICENSE) file.
 
 <br>
 
