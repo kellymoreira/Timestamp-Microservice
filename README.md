@@ -87,6 +87,7 @@ The **API** returns a **JSON object** with the **Unix timestamp** and **UTC stri
   <summary><h2 id="Resources">💡 Resources</h2></summary>
 
 - [Back End Development and API's](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
+- ["Timestamp microservice works for me but fails one challenge"](https://forum.freecodecamp.org/t/timestamp-microservice-works-for-me-but-fails-one-challenge/498153)
 
 </details>
 
