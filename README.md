@@ -97,6 +97,5 @@ The **API** returns a **JSON object** with the **Unix timestamp** and **UTC stri
 </div>
 
 <p align="right">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=kellymoreira/Timestamp-Microservice&right_color=red">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=kellymoreira/1000devs&right_color=blue">
 </p>
-
