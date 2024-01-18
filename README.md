@@ -91,12 +91,3 @@ The **API** returns a **JSON object** with the **Unix timestamp** and **UTC stri
 
 </details>
 
-
-
-<div align="right">
-  <h3> Thanks for visiting! <alt="Thanks for visiting!"> </h3>
-</div>
-
-<p align="right">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=kellymoreira/Timestamp-Microservice&right_color=blue">
-</p>
