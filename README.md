@@ -82,14 +82,18 @@ The **API** returns a **JSON object** with the **Unix timestamp** and **UTC stri
 - If it is, the code converts it to a standard format with **Unix timestamp** and **UTC string**.
 - If it's not a valid **Unix timestamp**, the code attempts to parse it as a date string and provides the corresponding **Unix timestamp** and **UTC string** if successful, or an error message if the parsing fails.
 
+
+
+<!-- 
 <h2 id="Usage">📋 Documentation</h2>
+-->
+
 
 <details>
   <summary><h2 id="Resources">💡 Resources</h2></summary>
 
 - [Back End Development and API's](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
 - [freeCodeCamp Forum](https://forum.freecodecamp.org/t/timestamp-microservice-works-for-me-but-fails-one-challenge/498153)
-- [Swagger Autogen Documentation](https://swagger-autogen.github.io/docs)
 
 
 </details>
