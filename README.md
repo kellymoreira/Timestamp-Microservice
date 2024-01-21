@@ -23,6 +23,7 @@
    | <a href="#Tech Stack">Tech Stack</a>
    | <a href="#Usage">Usage</a>
    | <a href="#Resources">Resources</a>
+   | <a href="#Documentation">Documentation</a>
 </p>
 
 
@@ -84,9 +85,9 @@ The **API** returns a **JSON object** with the **Unix timestamp** and **UTC stri
 
 
 
-<!-- 
-<h2 id="Usage">📋 Documentation</h2>
--->
+
+<h2 id="Documentation">📋 Documentation</h2>
+
 
 
 <details>
