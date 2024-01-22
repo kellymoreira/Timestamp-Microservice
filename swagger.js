@@ -1,10 +1,9 @@
-
 const express = require('express');
 const swaggerUi = require('swagger-ui-express');
 const swaggerAutogen = require('swagger-autogen')();
 
 const outputFile = './swagger-output.json';
-const endpointsFiles = ['./index.js']; // Update the file path if necessary
+const endpointsFiles = ['./index.js'];
 
 const doc = {
   info: {
@@ -12,7 +11,7 @@ const doc = {
     title: 'Timestamp Microservice',
     description: 'Documenting API\'s from the first freeCodeCamp project. (study purposes)',
   },
-  host: 'localhost:3000',
+  host: 'timestamp-microservice-production-ee2f.up.railway.app',
   basePath: '/',
   schemes: ['http', 'https'],
   consumes: ['application/json'],
@@ -41,7 +40,7 @@ const doc = {
         },
       },
     },
-    '/api/{date}': { // Updated path definition
+    '/api/{date}': {
       get: {
         summary: 'Get time based on provided date',
         parameters: [
@@ -95,9 +94,8 @@ swaggerAutogen(outputFile, endpointsFiles, doc).then(() => {
   // Serve Swagger UI
   app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(require('./swagger-output.json')));
 
-
   // Start the server
-  const listener = app.listen(process.env.PORT || 2000, function () {
+  const listener = app.listen(process.env.PORT || 3001, function () {
     console.log("Your app is listening on port " + listener.address().port);
   });
 });
