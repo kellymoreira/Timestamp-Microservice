@@ -1,7 +1,4 @@
-// index.js
-// where your node app starts
-
-// init project
+// Init project
 let express = require("express");
 let app = express();
 
@@ -55,7 +52,7 @@ app.get("/api/:date?", function (req, res) {
 
   /* An empty date parameter should return the current time in a JSON object with a utc key */
 
-  // Check if the parsed date is valid
+  // Check if the parsed date is valid:
   if (isNaN(parsedDate.getTime())) {
     res.json({ error: "Invalid Date" });
   } else {
@@ -63,12 +60,13 @@ app.get("/api/:date?", function (req, res) {
   }
 });
 
-// your first API endpoint
+// The first API endpoint:
 app.get("/api/hello", function (req, res) {
   res.json({ greeting: "hello API" });
 });
 
-// listen for requests :)
+// Listen for requests:
 let listener = app.listen(process.env.PORT || 3000, function () {
   console.log("Your app is listening on port " + listener.address().port);
 });
+
