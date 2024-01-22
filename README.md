@@ -53,7 +53,7 @@
 
 <h2 id="Usage">🛎️ Example Usage (Hypothetical Situation)</h2>
 
-### Booking System for Appointments or Revervations:
+### Booking System for Appointments or Reservations:
 Consider a scenario where users choose a date and time for an appointment. The **API** can assist in converting and storing these timestamps. 
 When a user selects a date and time for an appointment, the **API** facilitates the conversion and storage of these timestamps in a standardized format. This ensures smooth communication between different components of the system.
 
@@ -87,7 +87,7 @@ The **API** returns a **JSON object** with the **Unix timestamp** and **UTC stri
 
 
 <h2 id="Documentation">📋 Documentation</h2>
-
+Even though there isn't many API's on the project, I wanted to document it trhough swagger and to test it manually.
 
 
 <details>
