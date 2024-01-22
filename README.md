@@ -87,7 +87,33 @@ The **API** returns a **JSON object** with the **Unix timestamp** and **UTC stri
 
 
 <h2 id="Documentation">📋 Documentation</h2>
-Even though there isn't many API's on the project, I wanted to document it trhough swagger and to test it manually.
+Even though there isn't many API's on the project, I wanted to document it through **Swagger** to test it manually.
+
+To verify it yourself:
+
+Install the dependencies:
+```bash
+$ npm install
+```
+
+Use this command below to generate the documentation at project startup:
+```bash
+$ npm run start-gendoc
+```
+
+Use this command below to start the project without generating the documentation:
+```bash
+$ npm start
+```
+
+Run the project
+```bash
+$ node swagger.js
+```
+
+And access the documentation at:
+
+[http://localhost:3001/api-docs/](http://localhost:3001/api-docs/)
 
 
 <details>
