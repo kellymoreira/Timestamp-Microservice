@@ -95,6 +95,7 @@ The **API** returns a **JSON object** with the **Unix timestamp** and **UTC stri
 
 - [Back End Development and API's](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
 - [freeCodeCamp Forum](https://forum.freecodecamp.org/t/timestamp-microservice-works-for-me-but-fails-one-challenge/498153)
+- [Swagger Autogen Docs](https://swagger-autogen.github.io/docs/getting-started/)
 
 
 </details>
