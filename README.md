@@ -103,13 +103,14 @@ $ npm install
 $ npm run start-gendoc
 ```
 
-3. Start the project _**without**_ generating the documentation. This is typically faster than the previous step, especially if you don't need to view the API documentation right away. Use the command:
+3. Start the project **without** generating the documentation. This is typically faster than the previous step, especially if you don't need to view the API documentation right away. Use the command:
 ```bash
 $ npm start
 ```
 
 
-Once the project has started, you can access the documentation at: [http://localhost:3001/api-docs/](http://localhost:3001/api-docs/).
+Once the project has started, you can access the documentation at: 
+[http://localhost:3001/api-docs/](http://localhost:3001/api-docs/)
 
 
 <details>
