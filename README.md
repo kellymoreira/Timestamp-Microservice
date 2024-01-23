@@ -20,10 +20,10 @@
 
 <p align="center">
     <a href="#About">About</a>
-   ● <a href="#Tech Stack">Tech Stack</a>
-   ● <a href="#Usage">Usage</a>
-   ● <a href="#Resources">Resources</a>
-   ● <a href="#Documentation">Documentation</a>
+   | <a href="#Tech Stack">Tech Stack</a>
+   | <a href="#Usage">Usage</a>
+   | <a href="#Resources">Resources</a>
+   | <a href="#Documentation">Documentation</a>
 </p>
 
 
