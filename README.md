@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-        <img alt="Project Made at December 2023" src="https://img.shields.io/badge/month%20of%20creation-december%2F2023-6272a4">
+        <img alt="Project Made at December 2023" src="https://img.shields.io/badge/%20%20creation-december%2F2023-6272a4">
         <img alt="Code Size in bytes" src="https://img.shields.io/github/languages/code-size/kellymoreira/Timestamp-Microservice?color=6272a4" />
 	<img alt="Main Language" src="https://img.shields.io/github/languages/top/kellymoreira/Timestamp-Microservice?color=6272a4"/>
         <img alt="Project Status" src="https://img.shields.io/badge/status-completed-6272a4">
@@ -119,7 +119,11 @@ Once the project has started, you can access the documentation at:
 - [Back End Development and API's](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
 - [freeCodeCamp Forum](https://forum.freecodecamp.org/t/timestamp-microservice-works-for-me-but-fails-one-challenge/498153)
 - [Swagger Autogen Docs](https://swagger-autogen.github.io/docs/getting-started/)
-
-
 </details>
+
+<p align="left">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=kellymoreira/Timestamp-Microservice&right_color=LightSteelBlue">
+</p>
+
+
 
