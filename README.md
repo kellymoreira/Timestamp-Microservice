@@ -121,6 +121,7 @@ Once the project has started, you can access the documentation at:
 - [Swagger Autogen Docs](https://swagger-autogen.github.io/docs/getting-started/)
 </details>
 
+<br>
 <p align="left">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=kellymoreira/Timestamp-Microservice&right_color=CornflowerBlue">
 </p>
