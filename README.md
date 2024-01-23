@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-        <img alt="Project Made at December 2023" src="https://img.shields.io/badge/%20%20creation-december%2F2023-6495ED">
-        <img alt="Code Size in bytes" src="https://img.shields.io/github/languages/code-size/kellymoreira/Timestamp-Microservice?color=6495ED" />
-	<img alt="Main Language" src="https://img.shields.io/github/languages/top/kellymoreira/Timestamp-Microservice?color=6495ED"/>
-        <img alt="Project Status" src="https://img.shields.io/badge/status-completed-6495ED">
+        <img alt="Project Made at December 2023" src="https://img.shields.io/badge/%20%20creation-december%2F2023-4682B4">
+        <img alt="Code Size in bytes" src="https://img.shields.io/github/languages/code-size/kellymoreira/Timestamp-Microservice?color=4682B4" />
+	<img alt="Main Language" src="https://img.shields.io/github/languages/top/kellymoreira/Timestamp-Microservice?color=4682B4"/>
+        <img alt="Project Status" src="https://img.shields.io/badge/status-completed-4682B4">
 </p>
 
 
@@ -123,7 +123,7 @@ Once the project has started, you can access the documentation at:
 
 <br>
 <p align="left">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=kellymoreira/Timestamp-Microservice&right_color=CornflowerBlue">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=kellymoreira/Timestamp-Microservice&right_color=SteelBlue">
 </p>
 
 
