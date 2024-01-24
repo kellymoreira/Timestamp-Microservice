@@ -84,8 +84,6 @@ The **API** returns a **JSON object** with the **Unix timestamp** and **UTC stri
 - If it's not a valid **Unix timestamp**, the code attempts to parse it as a date string and provides the corresponding **Unix timestamp** and **UTC string** if successful, or an error message if the parsing fails.
 
 
-
-
 <h2 id="Documentation">📋 Documentation</h2>
 
 I used Swagger for API documentation, although the project itself doesn't contain many APIs,
@@ -111,6 +109,11 @@ $ npm start
 
 Once the project has started, you can access the documentation at: 
 [http://localhost:3001/api-docs/](http://localhost:3001/api-docs/)
+
+
+<h2 id="Feedbacks">📨 Feedbacks</h2>
+I'm a Junior, and I truly would like to hear in case there are any tips, corrections, suggestions, or comments about this little project. <br> 
+Your input is highly valued, and it helps me improve and learn.
 
 
 <details>
