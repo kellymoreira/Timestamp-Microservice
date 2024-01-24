@@ -24,6 +24,7 @@
    | <a href="#Usage">Usage</a>
    | <a href="#Resources">Resources</a>
    | <a href="#Documentation">Documentation</a>
+   | <a href="#Feedbacks">Feedbacks</a>
 </p>
 
 
