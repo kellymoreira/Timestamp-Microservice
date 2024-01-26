@@ -113,8 +113,8 @@ Once the project has started, you can access the documentation at:
 
 
 <h2 id="Feedbacks">📨 Feedbacks</h2>
-I'm a Junior, and I truly would like to hear in case there are any tips, corrections, suggestions, or comments about this little project. <br> 
-Your input is highly valued, and it helps me improve and learn.
+I'm a Junior, and I really would like to hear in case there are any tips, corrections, suggestions, or comments about this little project. <br> 
+Your feedback is highly valued, and it helps me improve and learn!
 
 
 <details>
