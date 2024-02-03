@@ -17,7 +17,6 @@
         <img alt="Project Status" src="https://img.shields.io/badge/status-completed-4682B4">
 </p>
 
-
 <p align="center">
     <a href="#About">About</a>
    | <a href="#Tech Stack">Tech Stack</a>
@@ -129,6 +128,4 @@ Your feedback is highly valued, and it helps me improve and learn!
 <p align="left">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=kellymoreira/Timestamp-Microservice&right_color=SteelBlue">
 </p>
-
-
 
