@@ -22,11 +22,7 @@
   },
   "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
   "author": "freeCodeCamp <team@freecodecamp.org>",
-  "keywords": [
-    "node",
-    "express",
-    "freeCodeCamp"
-  ],
+  "keywords": ["node", "express", "freeCodeCamp"],
   "license": "MIT",
   "devDependencies": {
     "swagger-autogen": "^2.23.7"
