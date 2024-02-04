@@ -1,84 +1,86 @@
-const express = require('express');
-const swaggerUi = require('swagger-ui-express');
-const swaggerAutogen = require('swagger-autogen')();
+const express = require("express");
+const swaggerUi = require("swagger-ui-express");
+const swaggerAutogen = require("swagger-autogen")();
 
-const outputFile = './swagger-output.json';
-const endpointsFiles = ['./index.js'];
+const outputFile = "./swagger-output.json";
+const endpointsFiles = ["./index.js"];
 
 const doc = {
   info: {
-    version: '1.0.0',
-    title: 'Timestamp Microservice',
-    description: 'Documenting API\'s from the first freeCodeCamp project. (study purposes)',
+    version: "1.0.0",
+    title: "Timestamp Microservice",
+    description:
+      "Documenting API's from the first freeCodeCamp project. (study purposes)",
   },
-  host: 'timestamp-microservice-production-ee2f.up.railway.app',
-  basePath: '/',
-  schemes: ['http', 'https'],
-  consumes: ['application/json'],
-  produces: ['application/json'],
+  host: "timestamp-microservice-production-ee2f.up.railway.app",
+  basePath: "/",
+  schemes: ["http", "https"],
+  consumes: ["application/json"],
+  produces: ["application/json"],
   tags: [
     {
-      name: 'Default',
-      description: 'Default endpoints',
+      name: "Default",
+      description: "Default endpoints",
     },
   ],
   paths: {
-    '/': {
+    "/": {
       get: {
-        summary: 'Get the current time',
+        summary: "Get the current time",
         responses: {
           200: {
-            description: 'Successful response',
+            description: "Successful response",
             schema: {
-              type: 'object',
+              type: "object",
               properties: {
-                unix: { type: 'number', description: 'Unix timestamp' },
-                utc: { type: 'string', description: 'UTC string' },
+                unix: { type: "number", description: "Unix timestamp" },
+                utc: { type: "string", description: "UTC string" },
               },
             },
           },
         },
       },
     },
-    '/api/{date}': {
+    "/api/{date}": {
       get: {
-        summary: 'Get time based on provided date',
+        summary: "Get time based on provided date",
         parameters: [
           {
-            name: 'date',
-            in: 'path',
+            name: "date",
+            in: "path",
             required: true,
-            type: 'string',
-            description: 'Date parameter in the format YYYY-MM-DD or Unix timestamp',
+            type: "string",
+            description:
+              "Date parameter in the format YYYY-MM-DD or Unix timestamp",
           },
         ],
         responses: {
           200: {
-            description: 'Successful response',
+            description: "Successful response",
             schema: {
-              type: 'object',
+              type: "object",
               properties: {
-                unix: { type: 'number', description: 'Unix timestamp' },
-                utc: { type: 'string', description: 'UTC string' },
+                unix: { type: "number", description: "Unix timestamp" },
+                utc: { type: "string", description: "UTC string" },
               },
             },
           },
           400: {
-            description: 'Invalid Date',
+            description: "Invalid Date",
           },
         },
       },
     },
-    '/api/hello': {
+    "/api/hello": {
       get: {
-        summary: 'Get a greeting message',
+        summary: "Get a greeting message",
         responses: {
           200: {
-            description: 'Successful response',
+            description: "Successful response",
             schema: {
-              type: 'object',
+              type: "object",
               properties: {
-                greeting: { type: 'string', description: 'Greeting message' },
+                greeting: { type: "string", description: "Greeting message" },
               },
             },
           },
@@ -91,10 +93,12 @@ const doc = {
 swaggerAutogen(outputFile, endpointsFiles, doc).then(() => {
   const app = express();
 
-  // Serve Swagger UI
-  app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(require('./swagger-output.json')));
+  app.use(
+    "/api-docs",
+    swaggerUi.serve,
+    swaggerUi.setup(require("./swagger-output.json"))
+  );
 
-  // Start the server
   const listener = app.listen(process.env.PORT || 3001, function () {
     console.log("Your app is listening on port " + listener.address().port);
   });
