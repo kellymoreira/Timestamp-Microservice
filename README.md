@@ -29,7 +29,7 @@
 
 <h2 id="About">📜 About</h2>
 
->*Designed to provide a **RESTful API** that responds to requests made at specific endpoints related to date manipulation for study purposes. <br>
+>*Designed to provide a **RESTful API** that responds to requests made at specific endpoints related to date manipulation for study purposes.
 >It's the first project from freeCodeCamp.
 >[Tap here to see the instructions](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice) <br> 
 >It supports three main functionalities:* <br>
