@@ -1,4 +1,4 @@
-ᴇɴɢʟɪꜱʜ | [ᴘᴏʀᴛᴜɢᴜᴇꜱᴇ-ʙʀ](https://github.com/kellymoreira/repositorypath/README_br.md)
+ᴇɴɢʟɪꜱʜ | [ᴘᴏʀᴛᴜɢᴜᴇꜱᴇ-ʙʀ](https://github.com/kellymoreira/Timestamp-Microservice/blob/master/README_pt.md)
 
 <p align="center">
 <img src="./img/clock.png" alt="Clock" width="25%"/>
