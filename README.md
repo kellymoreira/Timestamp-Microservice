@@ -21,7 +21,7 @@
 
 <p align="center">
     <a href="#About">About</a>
-   | <a href="#Tech Stack">Tech Stack</a>
+   | <a href="#Technologies">Technologies</a>
    | <a href="#Usage">Usage</a>
    | <a href="#Resources">Resources</a>
    | <a href="#Documentation">Documentation</a>
@@ -49,9 +49,16 @@
  - Returns **JSON object** with `unix timestamp` and `utc` representation of the current time.
 
 
-<h2 id="Tech Stack">⚙️ Tech Stack</h2>
+<h2 id="Technologies">⚙️ Technologies</h2>
 
-<img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img alt="Express.js" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+- `Node.js`
+- `Express.js`
+- `CSS`
+- `HTML`
+
+
+
+<!-- <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img alt="Express.js" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> -->
 
 
 <h2 id="Usage">🛎️ Example Usage (Hypothetical Situation)</h2>
