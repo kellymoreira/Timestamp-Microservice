@@ -125,14 +125,18 @@ Once the project has started, you can access the documentation at:
 I'm a Junior, and I really would like to hear in case there are any tips, corrections, suggestions, or comments about this little project. <br> 
 Your feedback is highly valued, and it helps me improve and learn!
 
-
+<!--
 <details>
   <summary><h2 id="Resources">💡 Resources</h2></summary>
+</details>
+-->
+
+<h2 id="Resources">💡 Resources</h2>
 
 - [Back End Development and API's](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
 - [freeCodeCamp Forum](https://forum.freecodecamp.org/t/timestamp-microservice-works-for-me-but-fails-one-challenge/498153)
 - [Swagger Autogen Docs](https://swagger-autogen.github.io/docs/getting-started/)
-</details>
+
 
 <br>
 <p align="left">
