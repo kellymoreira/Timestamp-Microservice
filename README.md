@@ -49,7 +49,7 @@
  - Returns **JSON object** with `unix timestamp` and `utc` representation of the current time.
 
 
-<h2 id="Technologies">⚙️ Technologies</h2>
+<h2 id="Technologies">🗃️ Technologies</h2>
 
 - `Node.js`
 - `Express.js`
