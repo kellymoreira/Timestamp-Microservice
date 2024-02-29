@@ -61,7 +61,7 @@
 <!-- <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img alt="Express.js" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> -->
 
 
-<h2 id="Usage">🛎️ Example Usage (Hypothetical Situation)</h2>
+<h2 id="Usage">🏨 Example Usage (Hypothetical Situation)</h2>
 
 ### Booking System for Appointments or Reservations:
 Consider a scenario where users choose a date and time for an appointment. The **API** can assist in converting and storing these timestamps. 
